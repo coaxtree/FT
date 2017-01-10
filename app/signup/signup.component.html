@@ -1,0 +1,51 @@
+<div class="container">
+    <div class="col-md-4 col-sm-3 col-xs-1"></div>
+    <div class="col-md-4 col-sm-6 col-xs-10 sigin">
+      <!--<div class='row'>
+        <img class='img-circle logo' src="../../app/assests/images/ft.jpg" alt='Tree Logo'>
+      </div>-->
+      <div class="row">
+          <div class="form-group label-floating">
+            <label class="control-label" for="focusedInput1">First Name</label>
+            <input class="form-control" id="focusedInput1" type="text">
+            <p class="help-block">Please enter your First name</p>
+         </div>
+         <div class="form-group label-floating">
+            <label class="control-label" for="focusedInput1">Last Name</label>
+            <input class="form-control" id="focusedInput1" type="text">
+            <p class="help-block">Please enter your Last name</p>
+         </div>
+      </div>
+      <div class="row">
+           <div class="form-group label-floating">
+                <label class="control-label" for="focusedInput2">Email id / Mobile Number</label>
+                <input class="form-control" id="focusedInput2" type="text">
+                <p class="help-block">Please enter your email id / mobile number</p>
+         </div>
+      </div>
+      <div class="row">
+           <div class="form-group label-floating">
+                <label class="control-label" for="focusedInput3">Password</label>
+                <input class="form-control" id="focusedInput3" type="password">
+                <p class="help-block">Please enter the valid password</p>
+         </div>
+      </div>
+      <div class="row">
+           <div class="form-group label-floating">
+                <label class="control-label" for="focusedInput3">Confirm Password</label>
+                <input class="form-control" id="focusedInput3" type="password">
+                <p class="help-block">Please enter the valid password</p>
+         </div>
+      </div>
+      <div class="row">
+          <div class="wrapper-signin">
+            <button [routerLink]="['/createfamily']" type="button" class="btn btn-raised btn-lg btn-block btn-primary">Next</button>
+        </div></div>  
+        <div class="row">
+          <div class="create-acct">
+             <a [routerLink]="['/login']">Back to Login</a>
+             <router-outlet></router-outlet>
+        </div></div>   
+    </div>   
+    <div class="col-md-4 col-sm-3 col-xs-1"></div>   
+</div>

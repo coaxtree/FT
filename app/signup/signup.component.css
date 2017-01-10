@@ -1,0 +1,37 @@
+
+
+.logo{
+    height: 100px !important;
+    display: block;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.sigin{
+    background: rgba(182, 230, 207, .3);
+}
+
+.wrapper-signin {
+    text-align: center;
+}
+
+.button {
+    position: absolute;
+    top: 50%;
+}
+
+.row{
+    padding: 3px 10px;
+}
+
+input, label, p, a{
+    color: black !important;
+}
+
+div.create-acct{
+  font-size: 1.2em;
+  font-weight: bold;
+  text-align: center !important;
+}
+
+
