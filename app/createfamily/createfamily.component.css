@@ -21,7 +21,7 @@
 }
 
 .row{
-    padding: 3px 10px;
+    padding: 3px 50px;
 }
 
 input, label, p, a{
@@ -34,4 +34,17 @@ div.create-acct{
   text-align: center !important;
 }
 
+.addsib{
+ text-align: center;
+font-weight: bold;
+position: absolute;
+padding: 2px 4px;
+}
 
+.addsibdiv{
+    padding-top: 10px;
+}
+
+.material-icons{
+cursor: pointer;
+}

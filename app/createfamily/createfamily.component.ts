@@ -5,4 +5,12 @@ import {Component} from '@angular/core'
     styleUrls: ['createfamily.component.css']
 })
 export class CreatefamilyComponent{
+
+    inputs = [{value: "First sibling"},];
+  addInput()  {
+    this.inputs.push({value: ''});
+  }
+  removeInput(){
+    this.inputs.pop();
+  }
 }

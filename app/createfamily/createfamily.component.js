@@ -11,7 +11,14 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var core_1 = require('@angular/core');
 var CreatefamilyComponent = (function () {
     function CreatefamilyComponent() {
+        this.inputs = [{ value: "First sibling" },];
     }
+    CreatefamilyComponent.prototype.addInput = function () {
+        this.inputs.push({ value: '' });
+    };
+    CreatefamilyComponent.prototype.removeInput = function () {
+        this.inputs.pop();
+    };
     CreatefamilyComponent = __decorate([
         core_1.Component({
             moduleId: module.id,

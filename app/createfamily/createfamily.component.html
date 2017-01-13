@@ -22,13 +22,19 @@
          </div>
       </div>
       <div class="row">
-           
+          <div class="form-group label-floating" *ngFor="let input of inputs">
+            <label class="control-label" for='f1' >{{input.value}}</label>
+            <input class="form-control" id='f1' type="text">
+            <button ng-click="Delete($event)" class="btn btn-danger">
+            <i class="glyphicon glyphicon-trash"></i></button>
+          </div>
       </div>
       <div class="row">
-          
-      </div>
+          <div class="addsibdiv"><i class="material-icons" (click)="addInput()">add_circle_outline</i>
+          <span class="addsib" >Add Siblings</span></div>
+       </div>
       <div class="row">
-           
+         
       </div>
       <div class="row">
           <div class="wrapper-signin">
